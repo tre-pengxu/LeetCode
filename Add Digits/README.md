@@ -10,7 +10,7 @@ Could you do it without any loop/recursion in O(1) runtime?
 * 将数字38各位求和：3 + 8 = 11，1 + 1 = 2.
      结果为个位数时，返回。
 
-
+```
 	class Solution {
 	public:
 	    int addDigits(int num) {
@@ -20,3 +20,4 @@ Could you do it without any loop/recursion in O(1) runtime?
 	            return 0;
 	    }
 	};
+```
